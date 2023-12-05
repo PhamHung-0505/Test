@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Shop</title>
+  <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="assets/img/logo.jpg" alt="Logo">
+    </div>
+    <div class="navbar">
+      <a href="" class="logo">Web Shop</a>
+      <div class="nav-links">
+        <a href="register.html" class="nav-link btn-register" class="nav-link">Đăng kí</a>
+        <a href="login.html" class="nav-link btn-login" class="nav-link">Đăng nhập</a> 
+      </div>
+    </div>
+
+    <div class="header__cart">
+      <div class="header__cart-wrap">
+          <i class="header__cart-icon fas fa-shopping-cart"></i>
+          <span class="header__cart-notice">3</span>
+
+          <!-- NO CART 
+              header__cart-list--no-cart-->
+      <div class="header__cart-list">
+          <img src="assets/img/no-cart.png" alt="" class="header__cart-no-cart-img">
+          <span class="header__cart-list-no-cart-msg">Chưa có sản phẩm</span>
+          <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+          <ul class="header__cart-list-item">
+              <li class="header__cart-item">
+                  <img src="assets/img/no-cart.png" alt="" class="header__cart-img">
+                  <div class="header__cart-item-info">
+                      <div class="header__cart-item-head">
+                          <h5 class="header__cart-item-name">Bộ son cao cấp</h5>
+                          <div class="header__cart-item-price-wrap">
+                              <span class="header__cart-item-price">2.000.000đ</span>
+                              <span class="header__cart-item-mul">x</span>
+                              <span class="header__cart-item-qnt">2</span>
+                          </div>
+                      </div>
+                      <div class="header__cart-item-body">
+                          <span class="header__cart-item-description">
+                              Phân loại: Mỹ phẩm
+                          </span>
+                          <span class="header__cart-item-remove">Xóa</span>
+                      </div>
+                  </div>
+              </li>
+              <li class="header__cart-item">
+                  <img src="assets/img/no-cart.png" alt="" class="header__cart-img">
+                  <div class="header__cart-item-info">
+                      <div class="header__cart-item-head">
+                          <h5 class="header__cart-item-name">Laptop ASUS ROG Strix G15 G512-IAL013T (i5-10300H | 8GB | 512GB | VGA GTX 1650Ti 4GB | 15.6" FHD 144Hz | Win 10)</h5>
+                          <div class="header__cart-item-price-wrap">
+                              <span class="header__cart-item-price">27.500.000</span>
+                              <span class="header__cart-item-mul">x</span>
+                              <span class="header__cart-item-qnt">1</span>
+                          </div>
+                      </div>
+                      <div class="header__cart-item-body">
+                          <span class="header__cart-item-description">
+                              Phân loại: Điện tử
+                          </span>
+                          <span class="header__cart-item-remove">Xóa</span>
+                      </div>
+                  </div>
+              </li>
+          </ul>
+          <button class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</button>
+      </div>
+      </div>
+    </div>
+  </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="sidebar">
+        <h1>Danh mục sản phẩm</h1>
+        <ul class="category-list">
+          <li class="category-item"><a href="#" class="category-link">Sản phẩm 1</a></li>
+          <li class="category-item"><a href="#" class="category-link">Sản phẩm 2</a></li>
+          <li class="category-item"><a href="#" class="category-link">Sản phẩm 3</a></li>
+          <!-- Thêm các danh mục sản phẩm khác vào đây -->
+        </ul>
+      </div>
+      <div class="content">
+        <h1>Tên danh mục sản phẩm</h1>
+        <div class="product-list">
+          <div class="product">
+            <img src="product1.jpg" alt="Sản phẩm 1">
+            <h2>Tên sản phẩm 1</h2>
+            <p>Mô tả sản phẩm 1</p>
+            <span class="price">Giá: 100.000 đ</span>
+            <button class="btn">Thêm vào giỏ hàng</button>
+          </div>
+          <div class="product">
+            <img src="product2.jpg" alt="Sản phẩm 2">
+            <h2>Tên sản phẩm 2</h2>
+            <p>Mô tả sản phẩm 2</p>
+            <span class="price">Giá: 200.000 đ</span>
+            <button class="btn">Thêm vào giỏ hàng</button>
+          </div>
+          <!-- Thêm các sản phẩm khác vào đây -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-info">
+        <h1>Thông tin liên hệ</h1>
+        <p>Địa chỉ: 123 đường ABC, XYZ</p>
+        <p>Email: info@example.com</p>
+        <p>Điện thoại: 0123456789</p>
+      </div>
+      <div class="footer-social">
+        <h1>Kết nối với chúng tôi</h1>
+        <a href="#" class="social-link">Facebook</a>
+        <a href="#" class="social-link">Instagram</a>
+        <a href="#" class="social-link">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

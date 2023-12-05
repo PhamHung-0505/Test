@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .register-form {
+    max-width: 400px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #ee4d2d;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-link {
+    text-align: center;
+  }
+  
+  .login-link a {
+    color: #ee4d2d;
+  }
+  
+  header {
+    background-color: #f44336;
+    padding: 10px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer p,
+  footer nav a {
+    color: #888;
+    text-decoration: none;
+  }
+  
